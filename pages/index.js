@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 export default function Home() {
   return (
@@ -11,9 +10,21 @@ export default function Home() {
         <link rel="icon" href="/mmm-icon.jpg" />
       </Head>
 
-      <main className="min-h-screen min-w-max flex justify-center ">
-        <Image src='/images/WEBSITE-back-scaled.jpg' alt='bg-image' layout='fill'/>
+      <main className="min-h-screen min-w-max flex justify-center flex-col items-center">
+        <Image className="z-0" src='/images/WEBSITE-back-scaled.jpg' alt='bg-image' layout='fill'/>
         <Navbar />
+        <section className="z-20 w-1/2 h-1/2">
+        <h1 className="text-[#227179] text-3xl font-bold">Moves That Make Meanings</h1>
+        </section>
+        <section className="z-10">features</section>
+        <section className="z-10">Online classes</section>
+        <section className="z-10">About Us</section>
+        <section className="z-10">Instructors</section>
+        <section className="z-10">Social</section>
+        <section className="z-10">Testimonials</section>
+        <section className="z-10">Subscribe to newsletter</section>
+
+        
       </main>
 
       <footer className='text-primary'>

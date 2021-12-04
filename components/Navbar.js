@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Navbar() {
     return (
-        <ul className="fixed top-0 flex items-center h-18 w-74 pt-4">
+        <ul className="fixed top-0 flex items-center h-18 w-74 pt-4 text-[#227179]">
             <span className='mr-8'>
                 <Image src='/images/mmm_new_logo.png' alt='mmm-new-logo' width={250} height={60} />
             </span>
